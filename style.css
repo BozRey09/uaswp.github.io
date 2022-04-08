@@ -1,0 +1,64 @@
+.text-judul {
+  font-size: 70px;
+}
+.big-heading {
+  font-size: 70px;
+}
+
+footer {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #10b981;
+}
+
+footer p {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+}
+
+.social-icons a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e3e3;
+  margin: 20px 10px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons i,
+.social i {
+  color: #10b981;
+}
+
+.social-icons a:hover {
+  background-color: #10b981;
+  box-shadow: 2px 2px 12px white;
+  transition: all ease 0.5s;
+}
+
+.social-icons a:hover i,
+.social a:hover i {
+  color: white;
+  transition: all ease 0.5s;
+}
+@media only screen and (max-width: 600px) {
+  .text-judul {
+    font-size: 40px;
+  }
+  .big-heading {
+    font-size: 30px;
+  }
+}
